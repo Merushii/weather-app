@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("https://i.pinimg.com/originals/5a/0f/1d/5a0f1db19b4a4c48889156dfc678f726.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.weatherCard{
+  width: 300px;
+  text-align: center;
+  background-color: #39607c85;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  font-size: 18px;
+}
+
+button{
+  margin: 20px;
+  padding: 5px;
+  background-color: #00000067;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+
+button:hover{
+  background-color: #000;
+  cursor: pointer;
+}
+
+.degrees{
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.infoWeather p{
+  margin: 10px;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 200px;
+  color: orange;
+}
