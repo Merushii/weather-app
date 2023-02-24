@@ -15,7 +15,7 @@ const WeatherCard = ({weather, temps, degrees, handleClick}) => {
             </div>
             <div className="infoWeather">
               <p>{weather.name}, {weather.sys.country}</p>
-              <p><i class='bx bx-wind'></i> {weather.wind.speed}</p>
+              <p><i class='bx bx-wind'></i> {weather.wind.speed} m/s</p>
               <p><i class='bx bxs-cloud'></i> {weather.clouds.all}%</p>
               <p>Pressure: {weather.main.pressure} mb</p>
             </div>
